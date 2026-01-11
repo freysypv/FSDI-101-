@@ -1,0 +1,48 @@
+H1{
+
+    color:blue;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+p{
+    background-color: yellow;
+    padding: 10px;
+    border:1px solid black;
+}
+
+.flex-direction-row-start{
+display: flex;
+flex-direction: row;
+justify-content: start;
+
+}
+
+.flex-direction-row-center{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.flex-direction-row-end{
+display: flex;
+flex-direction: row;
+justify-content: end;
+}
+.flex-direction-row-between{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.flex-direction-row-evenly{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;}
+
+.flex-direction-row-around{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
