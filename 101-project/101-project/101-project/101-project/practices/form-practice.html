@@ -1,0 +1,93 @@
+1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        body{
+            font-family:arial
+        }
+        .form-container{
+            background-color: rgb(171, 208, 240);
+            padding:30px
+        }
+        .input-container{
+            display:flex;
+            margin-bottom:20px;
+        }
+        .input-container input{
+            width: 90px;
+            padding:5px;
+
+
+
+        }
+        .input-container label{
+            width:10%;
+
+        }
+        .input-container input:invalid{
+            background-color: rgb(247, 5, 5);
+
+        }
+        .test{
+            font-SIZE:12PX;
+            border:1PX RED SOLID;
+
+        }
+        .test2{
+            background-color: black;
+           color:white;
+
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="menu-bar-flex"></div>
+        <h1>Welcome</h1> 
+        <nav class="menu">
+            <ul menu-link-container>
+                <li class="menu-link"><a href="#index.html">Home</a></li>
+                <li class="menu-link"><a href="#gallery.html">Gallery</a></li>
+                <li class="menu-link"><a href="#">Contact</a></li>
+            </ul>
+            
+        </nav>
+    <main>
+    <img src="https://picsum.photos/400/200" alt="random image">
+    </main>
+
+
+    
+
+    <div class="form-container">
+
+        <h2>contact us</h2>
+
+        <form><div class="input-contaner">
+            <label for="name"></label>
+            <input type="text' name="user_name" required>
+          </div>
+            <div class="input-container">
+                 <label>Age</label>
+                  <input class="test" type="number" name="user_age" value="0">
+            </div>
+                <div class="input-container">
+                  <label class="test">Password</label>
+                  <input type="password" name="user_pass" maxlength="5">
+                </div>
+                 <button class="test test2" type="submit">Send</button>
+        
+        </form>
+          
+    
+    
+     </div>
+
+    
+</body>
+</html>
